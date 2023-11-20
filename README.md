@@ -1,14 +1,12 @@
-# CRUD Operations in SQLite DB using Python and CLI
+# Machine Learning using MLFlow
 
-[![CI](https://github.com/nogibjj/IDS-706_rg361_week-5/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_week-5/actions/workflows/cicd.yml)
+[![CI](https://github.com/nogibjj/IDS-706_rg361_week-12/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_week-12/actions/workflows/cicd.yml)
 
-This repositroy contains files to perform CRUD (Create-Write-Update-Delete) operations in a ``SQLite`` Database using ``Python`` and ``CLI``
+This repositroy contains files to manage an End-to-End machine leanring project lifecycle using MLFlow
 
-All the CRUD operations are automatically ``logged`` in the ``query_logs`` file.
+The base repo has been created from [IDS-706_rg361_week-5](https://github.com/nogibjj/IDS-706_rg361_week-5) template and modified as per requirements.
 
-The base repo has been forked from [sqlite-lab](https://github.com/nogibjj/sqlite-lab) and modified as per requirements.
-
-Forked on on 29-Sep-2023
+Created on 19-Nov-2023
 
 ## Overview
 

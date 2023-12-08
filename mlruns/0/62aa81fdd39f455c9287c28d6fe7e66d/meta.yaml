@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/IDS-706_rg361_week-12/mlruns/0/62aa81fdd39f455c9287c28d6fe7e66d/artifacts
+end_time: 1702028512788
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 62aa81fdd39f455c9287c28d6fe7e66d
+run_name: dapper-ox-501
+run_uuid: 62aa81fdd39f455c9287c28d6fe7e66d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702028511006
+status: 3
+tags: []
+user_id: vscode

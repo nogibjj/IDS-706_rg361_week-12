@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/IDS-706_rg361_week-12/mlruns/0/56b9a6713e2f400c8ae5e29233bb0fb0/artifacts
+end_time: 1702029360792
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56b9a6713e2f400c8ae5e29233bb0fb0
+run_name: big-horse-30
+run_uuid: 56b9a6713e2f400c8ae5e29233bb0fb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702029358466
+status: 3
+tags: []
+user_id: vscode

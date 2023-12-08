@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/IDS-706_rg361_week-12/mlruns/0/f70e044bb59f4b4ea258eb9faeb12f4b/artifacts
+end_time: 1702028498444
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f70e044bb59f4b4ea258eb9faeb12f4b
+run_name: smiling-elk-89
+run_uuid: f70e044bb59f4b4ea258eb9faeb12f4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702028496640
+status: 3
+tags: []
+user_id: vscode

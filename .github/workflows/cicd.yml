@@ -1,5 +1,4 @@
 name: CI
-
 on:
   push:
     branches: [ "main" ]
@@ -9,35 +8,23 @@ on:
 
 permissions:
   contents: write
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name : install packages
-        run : make install
-      - name: test
-        run: make test
-      - name : format
-        run : make format
+      - name: install packages
+        run: make install
       - name: lint
         run: make lint
-      - name: Archive and Upload Artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: ml_pipeline-artifacts
-          path: ${{ github.workspace }}
-        
-      - name: Save to repository
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          echo GH_TOKEN: "${GH_TOKEN}"
-          git config --global user.name 'github-actions'
-          git config --local user.email "action@github.com"
-          git add .
-          git commit -m "Added Results" || echo "ignore commit failure, proceed"
-          git push
-          
-      
+      - name: run model
+        run: make ml_run
+      - name: test
+        run: make test
+      - name: format
+        run: make format
+      - name: generate_and_push
+        run: make generate_and_push
+      - name: deploy
+        run: make deploy

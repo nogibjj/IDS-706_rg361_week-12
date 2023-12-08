@@ -8,8 +8,4 @@ ruff==0.0.284
 
 #Data Science
 pandas
-matplotlib
-
-
-#other
-requests
+mlflow
